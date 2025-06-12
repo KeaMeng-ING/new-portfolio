@@ -33,8 +33,8 @@ const Hero = () => {
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
+              <h1>Hi! I'm Kea Meng👋</h1>
               <h1>
-                Shaping
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, idx) => (
@@ -45,7 +45,7 @@ const Hero = () => {
                         <img
                           src={word.imgPath}
                           alt={word.text}
-                          className="xl:size-12 md:size-20 size-7 md:p-2 p-1 rounded-full bg-white-50"
+                          className="xl:size-12 md:size-20 size-7 md:p-2 p-1 rounded-full bg-purple-50"
                         />
                         <span>{word.text}</span>
                       </span>
@@ -53,13 +53,10 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
             </div>
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi I'm Kea Meng, a developer based in Cambodia with a passion for
-              code.
+            <p className="text-purple-50 md:text-xl relative z-10 pointer-events-none w-[50%]">
+              Emerging web developer and third-year student at AUPP, passionate
+              about building impactful digital experiences.
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
@@ -77,7 +74,7 @@ const Hero = () => {
         </figure>
       </div>
 
-      <AnimatedCounter />
+      {/* <AnimatedCounter /> */}
     </section>
   );
 };

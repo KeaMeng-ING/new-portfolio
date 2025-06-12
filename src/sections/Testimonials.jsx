@@ -21,7 +21,7 @@ const Testimonials = () => {
                 </div>
                 <div>
                   <p className="font-bold">{name}</p>
-                  <p className="text-white-50">{mentions}</p>
+                  <p className="text-purple-50">{mentions}</p>
                 </div>
               </div>
             </GlowCard>

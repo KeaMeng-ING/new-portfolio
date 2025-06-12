@@ -1,10 +1,10 @@
 import NavBar from "./components/NavBar";
+import AboutMe from "./sections/AboutMe";
 import Contact from "./sections/Contact";
+import EducationSection from "./sections/EducationSection";
 import ExperienceSection from "./sections/ExperienceSection";
-import FeatureCard from "./sections/FeatureCard";
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
-import LogoShowcase from "./sections/LogoShowcase";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import Testimonials from "./sections/Testimonials";
 
@@ -13,10 +13,10 @@ const App = () => {
     <>
       <NavBar />
       <Hero />
+      <AboutMe />
       <ShowcaseSection />
-      <LogoShowcase />
-      <FeatureCard />
       <ExperienceSection />
+      <EducationSection />
       <Testimonials />
       <Contact />
       <Footer />

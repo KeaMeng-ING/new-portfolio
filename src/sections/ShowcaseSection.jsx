@@ -44,7 +44,11 @@ const AppShowcase = () => {
   }, []);
 
   return (
-    <div id="work" ref={sectionRef} className="app-showcase">
+    <div
+      id="work"
+      ref={sectionRef}
+      className="app-showcase md:px-10 md:mt-40 mt-20"
+    >
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
@@ -56,7 +60,7 @@ const AppShowcase = () => {
                 On-Demand Rides Made Simple with a Powerful, User-Friendly App
                 called Ryde
               </h2>
-              <p className="text-white-50 md:text-xl">
+              <p className="text-purple-50 md:text-xl">
                 An app built with React Native, Expo, & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
